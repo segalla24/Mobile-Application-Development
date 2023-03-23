@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="padding">15dp</dimen>
+    <dimen name="spaceBetween">20dp</dimen>
+    <dimen name="inLineSpace">5dp</dimen>
+</resources>
