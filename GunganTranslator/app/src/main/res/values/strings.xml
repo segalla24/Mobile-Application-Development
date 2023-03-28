@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gungan Translator</string>
+    <string name="translate">Translate</string>
+    <string name="startPhrase">Enter English text to be translated.</string>
+    <string name="gunganText">Gungan text translation will appear hear</string>
+    <string name="translation_failed">Translation Failed</string>
+</resources>

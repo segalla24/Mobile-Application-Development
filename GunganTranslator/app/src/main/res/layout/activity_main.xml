@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/enterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/padding"
+        android:ems="17"
+        android:hint="@string/startPhrase"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        app:layout_constraintLeft_toLeftOf="@+id/translatedText">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/translateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/padding"
+        android:text="@string/translate"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="@+id/translatedText"
+        app:layout_constraintTop_toBottomOf="@+id/enterText">
+    </Button>
+
+    <TextView
+        android:id="@+id/translatedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:lines="20"
+        android:text="@string/gunganText"
+        android:textSize="@dimen/textSize"
+        app:layout_constraintTop_toBottomOf="@+id/translateButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
